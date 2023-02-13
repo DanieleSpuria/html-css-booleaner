@@ -97,6 +97,8 @@ table{
 }
 
 thead {
+  color: white;
+  text-align: left;
   background-color: #20A9E5;
 }
 
