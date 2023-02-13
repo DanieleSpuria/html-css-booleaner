@@ -23,6 +23,7 @@ header img {
 /* MAIN */
 main {
   padding-left: 10px;
+  padding-right: 10px;
 }
 
     /* TITOLO */
@@ -56,11 +57,11 @@ section p span {
 
     /* FOTO */
 .immagini {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 #uno {
-  width: 44.5%;
+  width: 44.5%;praesentium exercitationem eligendi
 }
 
 #due {
@@ -68,7 +69,29 @@ section p span {
 }
 
 section.foto p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
     /* TESTO */
+.testo {
+  font-size: 26px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+section.testo p, ul,table {
+  padding-bottom: 40px;
+}
+
+section.testo p span {
+  color: black;
+  background-color: yellow;
+}
+
+thead {
+  background-color: #20A9E5;
+}
+
+#traccia-uno,#traccia-tre {
+  background-color: #B1E5F2;
+}
