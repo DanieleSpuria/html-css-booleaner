@@ -7,29 +7,37 @@
 /* HEADER */
 header {
   width: 100%;
-  height: 100px;
-  background-color: rgb(78, 160, 225);
+  height: 180px;
+  background-color: cornflowerblue;
   background-image: url('../img/pattern.png');
-  background-size: 43%;
+  background-size: 36%;
+  background-position: 97% 3%;
 }
 
 header img {
-  width: 190px;
-  padding-top: 40px;
+  width: 360px;
+  padding-top: 70px;
+  padding-left: 10px;
 }
 
 /* MAIN */
+main {
+  padding-left: 10px;
+}
+
+    /* TITOLO */
 .titolo {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 section.titolo h1 {
-  font-size: 40px;
+  font-size: 70px;
 }
 
 .sottotitolo {
   color: grey;
+  font-weight: 800;
 }
 
 section p span {
@@ -37,11 +45,30 @@ section p span {
 }
 
 #autore {
-  font-size: 18px;
+  font-size: 25px;
   padding-top: 4px;
 }
 
 #data {
-  font-size: 14px;
+  font-size: 18px;
   padding-top: 2px;
 }
+
+    /* FOTO */
+.immagini {
+  padding-bottom: 10px;
+}
+
+#uno {
+  width: 44.5%;
+}
+
+#due {
+  width: 38%;
+}
+
+section.foto p {
+  font-size: 20px;
+}
+
+    /* TESTO */
