@@ -88,6 +88,10 @@ main {
   background-color: yellow;
 }
 
+.colonna {
+  width: 25%;
+}
+
 thead {
   background-color: #20A9E5;
 }
