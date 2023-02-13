@@ -102,8 +102,21 @@ section.altro h2 {
   font-size: 30px;
 }
 
-.altro img {
-  width: 400px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.altro h3 {
+  color: white;
+  font-size: 30px;
+  width: 312px;
+  height: 208px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+#link-uno {
+  background-image: url('../img/monitor.jpg');
+}
+
+#link-due {
+  background-image: url('../img/graph.jpg');
 }

@@ -97,13 +97,26 @@ thead {
 }
 
     /* ALTRO */
-section.altro h2 {
+.altro h2 {
   color: grey;
   font-size: 20px;
 }
 
-.altro img {
-  width: 300px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.altro h3 {
+  color: white;
+  font-size: 20px;
+  width: 312px;
+  height: 208px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+#link-uno {
+  background-image: url('../img/monitor.jpg');
+}
+
+#link-due {
+  background-image: url('../img/graph.jpg');
 }
