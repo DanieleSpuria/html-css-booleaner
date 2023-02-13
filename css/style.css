@@ -97,7 +97,7 @@ thead {
 }
 
     /* ALTRO */
-section.altro h2 {
+.altro h2 {
   color: grey;
   font-size: 30px;
 }
