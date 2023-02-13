@@ -32,7 +32,7 @@ main {
   padding-bottom: 20px;
 }
 
-section.titolo h1 {
+.titolo h1 {
   font-size: 70px;
 }
 
@@ -41,7 +41,7 @@ section.titolo h1 {
   font-weight: 800;
 }
 
-section p span {
+.titolo p span {
   color: lightblue;
 }
 
@@ -56,19 +56,19 @@ section p span {
 }
 
     /* FOTO */
-.immagini {
+.foto img {
   padding-bottom: 5px;
 }
 
 #uno {
-  width: 44.5%;praesentium exercitationem eligendi
+  width: 44.5%;
 }
 
 #due {
   width: 38%;
 }
 
-section.foto p {
+.foto p {
   font-size: 18px;
 }
 
@@ -79,11 +79,11 @@ section.foto p {
   padding-bottom: 20px;
 }
 
-section.testo p, ul,table {
+.testo p,ul,table {
   padding-bottom: 40px;
 }
 
-section.testo p span {
+.testo p span {
   color: black;
   background-color: yellow;
 }
@@ -94,4 +94,16 @@ thead {
 
 #traccia-uno,#traccia-tre {
   background-color: #B1E5F2;
+}
+
+    /* ALTRO */
+section.altro h2 {
+  color: grey;
+  font-size: 30px;
+}
+
+.altro img {
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
