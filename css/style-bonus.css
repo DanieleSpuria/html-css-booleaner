@@ -11,6 +11,11 @@ header {
   background-size: 32%;
 }
 
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
 .yellow {
   background-color: yellow;
 }

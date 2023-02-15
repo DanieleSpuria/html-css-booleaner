@@ -5,20 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Booleaner</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-bonus.css">
 </head>
 <body>
-  <!-- Intestazione -->
   <header>
-    <img src="img/logo.svg" alt="Logo">
+    <div class="container" >
+      <img src="img/logo.svg" alt="Logo">
+    </div>
   </header>
 
-  <main>
+  <main class="container">
     <!-- Titolo -->
     <section class="titolo">
       <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-      <p id="autore" class="sottotitolo">Scritto da <span>The Booleaner</span></p>
-      <p id="data" class="sottotitolo">il 10/10/2020</p>
+      <p class="info autore">Scritto da <span>The Booleaner</span></p>
+      <p class="info data">il 10/10/2020</p>
     </section>
 
     <!-- Foto -->
@@ -36,7 +37,7 @@
     <!-- Testo -->
     <section class="testo">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat rerum, neque, sequi asperiores itaque officia quod sed ex officiis dolores magnam quam ipsa adipisci nesciunt quis? <span>Totam maiores animi, ullam temporibus iste reiciendis nemo!</span>  Fuga consectetur, unde, ipsam porro animi, accusantium id praesentium exercitationem eligendi culpa nobis repellendus doloremque. Quibusdam!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat rerum, neque, sequi asperiores itaque officia quod sed ex officiis dolores magnam quam ipsa adipisci nesciunt quis? <span class="yellow">Totam maiores animi, ullam temporibus iste reiciendis nemo!</span>  Fuga consectetur, unde, ipsam porro animi, accusantium id praesentium exercitationem eligendi culpa nobis repellendus doloremque. Quibusdam!
       </p>
 
       <ul>
@@ -51,29 +52,29 @@
       <table>
         <thead>
           <tr>
-            <th class="colonna">Lorem, ipsum dolor</th>
-            <th class="colonna">Lorem, ipsum dolor</th>
             <th>Lorem, ipsum dolor</th>
+            <th>Lorem, ipsum dolor</th>
+            <th class="width">Lorem, ipsum dolor</th>
           </tr>
         </thead>
         <tbody>
-          <tr id="traccia-uno">
-            <td class="colonna">Lorem, ipsum dolor</td>
-            <td class="colonna">Lorem, ipsum dolor</td>
+          <tr class="odd">
+            <td>Lorem, ipsum dolor</td>
+            <td>Lorem, ipsum dolor</td>
             <td>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, voluptatem! Pariatur numquam maxime, nobis facere tenetur esse non delectus soluta.
             </td>
           </tr>
-          <tr id="traccia-due">
-            <td class="colonna">Lorem, ipsum dolor</td>
-            <td class="colonna">Lorem, ipsum dolor</td>
+          <tr>
+            <td>Lorem, ipsum dolor</td>
+            <td>Lorem, ipsum dolor</td>
             <td>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, voluptatem! Pariatur numquam maxime, nobis facere tenetur esse non delectus soluta.
             </td>
           </tr>
-          <tr id="traccia-tre">
-            <td class="colonna">Lorem, ipsum dolor</td>
-            <td class="colonna">Lorem, ipsum dolor</td>
+          <tr class="odd">
+            <td>Lorem, ipsum dolor</td>
+            <td>Lorem, ipsum dolor</td>
             <td>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, voluptatem! Pariatur numquam maxime, nobis facere tenetur esse non delectus soluta.
             </td>
@@ -82,7 +83,7 @@
       </table>
 
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat rerum, neque, sequi asperiores itaque officia quod sed ex officiis dolores magnam quam ipsa adipisci nesciunt quis? Totam maiores animi, ullam temporibus iste reiciendis nemo! Fuga consectetur, unde, ipsam porro animi, accusantium id <span>praesentium exercitationem eligendi</span> culpa nobis repellendus doloremque. Quibusdam!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat rerum, neque, sequi asperiores itaque officia quod sed ex officiis dolores magnam quam ipsa adipisci nesciunt quis? Totam maiores animi, ullam temporibus iste reiciendis nemo! Fuga consectetur, unde, ipsam porro animi, accusantium id <span class="yellow">praesentium exercitationem eligendi</span> culpa nobis repellendus doloremque. Quibusdam!
       </p>
     </section>
     <!-- Testo -->
@@ -91,8 +92,13 @@
     <section class="altro">
       <h2>Potrebbero interessarti</h2>
       
-      <h3 id="link-uno">Lorem, ipsum</h3>
-      <h3 id="link-due">Lorem, ipsum</h3>
+      <div class="link uno">
+        <h3 >Lorem, ipsum</h3>
+      </div>
+
+      <div class="link due">
+        <h3>Lorem, ipsum</h3>
+      </div>
     </section>
   </main>
 </body>
